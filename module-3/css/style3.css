@@ -1,0 +1,83 @@
+body{
+	background-color:red;
+	font: 19px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#header-nav{
+  border: 0;
+  border-radius: 0;
+  background-color:black;
+}
+.navbar-brand h1{
+	color:blue;
+	width:200px
+	height:100px;
+	font-size: 1.5em;
+	margin-top:0;
+	margin-bottom: 0;
+}
+.container{
+	margin:0;
+	padding:10px;
+}
+#nav-list {
+  margin-top: 10px;
+  margin-bottom:10px;
+ text-align: center;
+}
+#nav-list span{
+	 text-align: center;
+      font-size: 1.8em;
+     color:blue;
+
+}
+
+#nav-list span:hover{
+	 background: white;
+
+}
+.container > h1{
+   color:black;
+   margin-bottom:30px;
+    margin-top:10px;
+
+}
+.container h2{ 
+	text-align: center;
+	color: black;
+	margin-bottom: 20px
+ font-weight:bold;
+
+}
+#main{ 
+	width:100%;
+	padding:30px;
+     margin: auto;
+
+}
+.container .first, .container .second, .container .third{ 
+	padding: 10px;
+	color: black;
+	font-size: 1.2em;
+	border: 3px solid black;
+	margin-bottom:10px;
+	background-color:yellow;
+
+}
+ .container .second{
+ 	background-color: #FDD017;
+ }
+ .container .third{
+ 	background-color:#FBB917;
+ }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid blue;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+    margin-top: -40px;
+
+}
